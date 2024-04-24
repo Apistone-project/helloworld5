@@ -44,7 +44,7 @@
       <muleVersion>4.4.0</muleVersion>
       <username>aabilash3</username>
       <password>Aa07306010</password>
-      <applicationName>Helloworld</applicationName>
+      <applicationName>helloworld5</applicationName>
       <replicas>1</replicas>
       <vCores>1</vCores>
       </cloudhub2Deployment>
