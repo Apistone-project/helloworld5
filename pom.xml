@@ -14,7 +14,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.5.2</app.runtime>
-		<mule.maven.plugin.version>4.0.0</mule.maven.plugin.version>
+		<mule.maven.plugin.version>3.8.6</mule.maven.plugin.version>
 	</properties>
 
 	<build>
@@ -97,7 +97,7 @@
 	</pluginRepositories>
 	<distributionManagement>
     <repository>
-      <id>anypoint-exchange-v3</id>
+      <id>anypoint-exchange-v4</id>
       <name>Corporate Repository</name>
       <url>https://maven.anypoint.mulesoft.com/api/v3/organizations/fd388f5e-bbeb-459c-9ec2-6a85c5512d20/maven</url>
       <layout>default</layout>
