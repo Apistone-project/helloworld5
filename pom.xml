@@ -29,6 +29,9 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				<configuration>
+                <classifier>mule-application</classifier>
+            </configuration>
 			</plugin>
 						<plugin>
   <groupId>org.mule.tools.maven</groupId>
@@ -94,6 +97,10 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</pluginRepository>
+		 <pluginRepository>
+    <id>mule-public</id>
+    <url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
+  </pluginRepository>
 	</pluginRepositories>
 	<distributionManagement>
     <repository>
