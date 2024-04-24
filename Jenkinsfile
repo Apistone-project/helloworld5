@@ -4,7 +4,7 @@ pipeline {
         stage ('Building') {
             steps { 
 			
-                bat 'mvn deploy --settings .maven/settings.xml -DmuleDeploy' 
+                bat 'mvn deploy --settings C:/Users/326078/.m2/settings.xml -DmuleDeploy' 
             }            
         }
 
