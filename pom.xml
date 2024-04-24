@@ -31,13 +31,6 @@
 				<extensions>true</extensions>
 				<configuration>
                 <classifier>mule-application</classifier>
-            </configuration>
-			</plugin>
-						<plugin>
-  <groupId>org.mule.tools.maven</groupId>
-  <artifactId>mule-maven-plugin</artifactId>
-  <version>3.8.1</version>
-  <extensions>true</extensions>
   <configuration>
     <cloudhub2Deployment>
       <uri>https://anypoint.mulesoft.com</uri>
